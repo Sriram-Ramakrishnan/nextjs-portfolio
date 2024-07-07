@@ -1,11 +1,5 @@
 import React from "react";
 
-import drdo from "@/public/company/drdo.png";
-import clinigo from "@/public/company/clinigo.png";
-import robovitics from "@/public/company/robovitics.png";
-
-
-
 import expenseTrackerImg from "@/public/expenseTracker.png";
 import predictiproImg from "@/public/predictipro.png";
 import pythonHuntImg from "@/public/pythonHunt.png";
