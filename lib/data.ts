@@ -1,5 +1,11 @@
 import React from "react";
 
+import tpImg from "@/public/projects/taskPlanner.png";
+import etImg from "@/public/projects/expenseTracker.png";
+import phImg from "@/public/projects/pythonHunt.png";
+import prImg from "@/public/projects/predictipro.png";
+import erImg from "@/public/projects/eventsReg.png";
+
 import html from "@/public/tech/html.png";
 import css from "@/public/tech/css.png";
 import javascript from "@/public/tech/javascript.png";
@@ -87,35 +93,35 @@ export const projectsData = [
     description:
       "Developed an expense tracker dashboard where users can add expenses with receipts and dashboard providing insights and analytics.",
     tags: ["Next.js", "Postgres", "Tailwind", "ChartsJS"],
-    imageUrl: "https://res.cloudinary.com/dpxlluhmw/image/upload/v1720378881/expenseTracker_gxfccg.png",
+    imageUrl: etImg,
   },
   {
     title: "Python Hunt",
     description:
       "A open-source website for adding concepts and learn about Python. Approved 10+ pull requests as a maintainer and handled Django config.",
     tags: ["HTML", "CSS", "Django", "Bootstrap", "Postgres"],
-    imageUrl: "https://res.cloudinary.com/dpxlluhmw/image/upload/v1720378893/pythonHunt_w6kkfp.png",
+    imageUrl: phImg,
   },
   {
     title: "Task Planner",
     description:
       "A comprehensive task planner application that allows users to create tasks, repeat tasks and allocate time to complete their work efficiently.",
     tags: ["HTML", "CSS", "JavaScript", "Django", "MySQL"],
-    imageUrl: "https://res.cloudinary.com/dpxlluhmw/image/upload/v1720378895/taskPlanner_rymvfg.png",
+    imageUrl: tpImg,
   },
   {
     title: "PredictiPro",
     description:
       "An innovative web application that delivers accurate and actionable demand forecasts to revolutionize retail planning.",
     tags: ["React", "TailwindCSS", "Django", "Numpy", "Pandas"],
-    imageUrl: "https://res.cloudinary.com/dpxlluhmw/image/upload/v1720378895/predictipro_nomb8r.png",
+    imageUrl: prImg,
   },
   {
     title: "Events registration website",
     description:
       "Contributed to this web-based platform with sign-in using Google function and register for events, generate tickets.",
     tags: ["HTML", "CSS", "JavaScript", "Firebase", "Webpack"],
-    imageUrl: "https://res.cloudinary.com/dpxlluhmw/image/upload/v1720378883/eventsReg_pesmmq.png",
+    imageUrl: erImg,
   }
 ] as const;
 
