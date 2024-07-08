@@ -9,7 +9,7 @@ import erImg from "@/public/projects/eventsReg.png";
 import html from "@/public/tech/html.png";
 import css from "@/public/tech/css.png";
 import javascript from "@/public/tech/javascript.png";
-import cplusplus from "@/public/tech/Cpp.svg";  
+import cplusplus from "@/public/tech/Cpp.png";  
 import python from "@/public/tech/python.png";
 import reactjs from "@/public/tech/reactjs.png";
 import nextJs from "@/public/tech/nextjs.svg";
