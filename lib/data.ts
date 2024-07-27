@@ -64,7 +64,7 @@ export const experiencesData = [
     location: "CABS, DRDO",
       
     description: ["Developed a logging database system for aircraft with multiple sensors, using MongoDB and C++ and ensure scalability and reliability.", 
-                  "Added semaphores and Mutex locks in addition to a simple queue service to achieve this."],
+                  "Added semaphores and Mutex locks in addition to a simple queue service to optimise read requests by 200%."],
     icon: "/company/drdo.png",
     date: "Nov 2023 - Dec 2023",
   },
@@ -80,8 +80,8 @@ export const experiencesData = [
   {
     title: "Lead and core-commitee member",
     location: "RoboVITics, VIT Vellore",
-    description:[" Guided juniors in the domain of web development and conducted regular progress checks, then supervised a team of 4  to develop a website for the event Vortex360.Led the documentation team to draft marketing content and technical documentation, and authored MoUs and agreements."
-,"Supervised the event arrangements for Robowars and Vortex360, and skillfully coordinated with various membersand management to ensure the success of the events."],
+    description:["Guided juniors in the domain of web development and conducted regular progress checks, and supervised a team to develop a website for the hackathon Vortex360.","Led the documentation team to draft marketing content and technical documentation, and authored MoUs and agreements."
+,"Supervised the event arrangements for Robowars, South India's largest combat robotics event and Vortex360, a CAD modelling hackathon, and skillfully coordinated with various members and management to ensure the success of the events."],
     icon: "/company/robovitics.png",
     date: "Jan 2022 - Present",
   },

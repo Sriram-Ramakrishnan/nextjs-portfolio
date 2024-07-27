@@ -34,21 +34,22 @@ export default function Skills() {
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 md:gap-4 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/20 dark:text-white/80"
+            className="flex flex-col justify-center gap-1 items-center bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/20 dark:text-white/80 w-32 h-32"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
+            whileHover={{ scale: [null, 1.1, 1.1] }}
             viewport={{
               once: true,
             }}
             custom={index}
           >
-          <Image src={skill.icon} alt={skill.name} className="w-10 h-10 mx-auto" />
-          <p>  {skill.name} </p>
+          <Image src={skill.icon} alt={skill.name} className="w-8 h-8 lg:w-10 lg:h-10 mx-auto" />
+          <p className="text-sm lg:text-lg">  {skill.name} </p>
           <div className="flex justify-center">
             {[...Array(5)].map((_, i) => {
               if (i < skill.stars) {
